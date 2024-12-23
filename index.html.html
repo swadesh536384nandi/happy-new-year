@@ -1,0 +1,487 @@
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<title>
+		Happy New Year 2025
+	</title>
+	<script src="https://cdn.tailwindcss.com"> </script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+	</head>
+ 
+  <style>
+    body {
+			
+        font-family: 'Roboto', sans-serif;
+		overflow: auto;
+		background-color: green-800;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* Internet Explorer/Edge */
+        user-select: none; 		
+		
+		a:hover 
+		{
+           background-color: green;
+		}
+		
+		h1
+		{
+			font-size: 3rem;
+			text-align: center;
+		}
+        canvas {
+			background-color: transparent; 
+            position: fixed; /* Fix the canvas to the viewport */
+            top: 0;
+            left: 0;
+            width: 100vw; /* Full width of the viewport */
+            height: 100vh; /* Full height of the viewport */
+            pointer-events: auto; /* Allow mouse events on the canvas */
+            z-index: -1; /* Place the canvas behind other content */
+        }
+		
+		.content
+		{
+            position: relative;
+            z-index: 0; /* Place content above the canvas */
+            padding: 0px;
+            color: black;
+            font-size: 20px;
+        }
+		
+		button
+		{
+			margin-top: 20px;
+			padding: 10px 20px;
+			
+			font-size: 1.2rem;
+			background-color: #ff5722;
+			color: #fff;
+			border: none;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+		button:hover
+		{
+			background-color: #e64a19;
+		}
+		.firework
+		{
+			position: absolute;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background-color: #fff;
+			animation: explode 1s ease-out forwards;
+			emoji:'🎉🎉🎉🎉🎉';
+		}
+		@keyframes explode
+		{
+			0% {
+				opacity: 1;
+				transform: scale(1);
+			}
+			100% {
+				opacity: 0;
+				transform: scale(3);
+			}
+		}
+    </style>
+  
+     <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            // Disable Ctrl+C and Ctrl+U
+            if (e.ctrlKey && (e.key === 'c' || e.key === 'u')) {
+                e.preventDefault();
+            }
+        });
+		const express = require('express');
+		const app = express();
+
+		app.get('/set-cookie', (req, res) => {
+		res.cookie('sessionId', 'your-session-id', {
+        httpOnly: true, // Prevents JavaScript access
+        secure: true,   // Ensures the cookie is sent only over HTTPS
+        sameSite: 'Strict' // Controls cross-origin requests
+		});
+		res.send('Secure cookie set!');
+		});
+
+		app.listen(3000, () => {
+		console.log('Server is running on https://localhost:3000');
+		});
+    </script>
+ 
+	<body class="bg-gray-100 font-roboto">
+	    <div class="content">
+	    <canvas id="fireworks"> </canvas>
+		<header class="bg-blue-600 text-white p-4">
+			<div class="container mx-auto flex justify-between items-center">
+				<h1 class="text-2xl font-bold">
+					Happy New Year 2025
+				</h1>
+				<nav>
+					<ul class="flex space-x-4">
+					<li>
+						<a class="hover:underline" href="#">
+						Home
+						</a>
+					</li>
+					<li>
+						<a class="hover:underline" href="#about">
+						About
+						</a>
+					</li>
+					<li>
+						<a class="hover:underline" href="#event">
+						Events
+						</a>
+					</li>
+					<li>
+						<a class="hover:underline" href="https://meet.google.com/koa-divn-yef " target="Happy new year Contact">
+						Contact
+						</a>
+					</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="container mx-auto p-4">
+			<section class="text-center my-8">
+				<h2 class="text-6xl font-bold text-yellow-600 mb-4">
+				💐🌸Welcome to 2025🌸💐
+				</h2>
+				<p class=" text-3xl text-green-600 mb-6">
+					Join my in celebrating the new year with joy, happiness, and lots of fun activities.
+				</p>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+					<img alt="A vibrant and colorful fireworks display lighting up the night sky to celebrate the new year" class="mx-auto rounded-lg shadow-lg" height="190" src="https://img.freepik.com/premium-vector/vector-happy-new-year-2025-colorful-background-with-fancy-lettering_545399-4945.jpg "width="430"/>
+					<!--<img alt="wish person" class="mx-auto rounded-lg shadow-lg" height="159" src="#" width="350"> -->
+					<img alt="Happy new year 2025 picture" class="mx-auto rounded-lg shadow-lg" height="200" src="https://lh3.googleusercontent.com/pw/AP1GczPpFA3lIQM3yBpi8HFfT8uieBvXydBFtIJ5Aut1akhxu6dnhZlvcVLSBhwsvMjmYa9_-mXhpAjc2gcbkkPxqcHmhbWA73z3r-DdyUqpLiNF9vO_1Oe2JMz3lhFQJb8w0E3xi1YJc9lSmoqC71rJPNATDg=w735-h565-s-no?authuser=0" width="370">
+	
+				</div>
+			</section>
+			
+			<div class="px-80 py-1">
+				<audio controls autoplay loop preload="auto" >
+					<source src="https://my.microsoftpersonalcontent.com/personal/ca11325e8fabaa35/_layouts/15/download.aspx?UniqueId=997e0289-fb42-49be-8758-d000d0209d7e&Translate=false&tempauth=v1e.eyJzaXRlaWQiOiI5OGQ2MjIxNC00ZjczLTRhZTgtOTY2ZS0xNzM1ZmYyYTY0MzkiLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbXkubWljcm9zb2Z0cGVyc29uYWxjb250ZW50LmNvbUA5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJleHAiOiIxNzM0OTY1MjE5In0.teger4c-559NCELeyrFU3R2Inmm7eA9j8x3U3oDRuY4vBaHYbEkZw37GGAKBQpfa-h5JxN5a6VbYv4hYJPBuZcNhmA5uqhnpqHWsUEn-AVQHjVjuYPtbuoNX9HYWHoKCmJMqDq7ZxFWTGBmwDZT-ZqO2s1uqa5Ok1wKyoe0lSZ7cJCpGNgXWp5W1HAczHE-EG_AfumLbhB60uulnZVNuR3_0vGN_uiOU_47aj0e-MdE9ptN5Nyedip7px-7-fBDbyKiR-2UIfA00GssDhvZFBqqhPLk6QDQ_kCqYXNVknLzB7PtPW5osU_GzeWt7lciAK6kDyE6hVgs7U9m5aBd5hleP-foYQRsi-ceNMwF8KCfTxUZqNKI0NJvZZSBl0cZ3CH17C1Er-5W4gxKIOfA2houi-j9vIFCK25rF7G3DgKOFXjrQd8FcLS6I1_j8hDh7353Y9Li5av-kh63yA1AzMhE2j9jJs48P4_rXSt-3HBQMROjUf9XOVpDrllxfzQJ3b7ierH1Z-bK9gbBpTokxLA.0YomA_RJJ1jGPeqaD0AtLVH3HavLh_89oNKeRajLhUI&ApiVersion=2.0">
+				</audio>
+			</div>
+			
+			<section class="text-center my-8" id="about">
+				<div class=" hover:bg-red-100">
+			
+				    <p class="text-2xl font-bold text-pink-600 mb-4">Happy New Year <br>˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜</p>
+					<p class="text-2xl text-green-600 mb-2">
+					My Happy New Year wish for you
+					<br>
+					Is for your best year yet,
+					<br>
+					A year where life is peaceful,
+					<br>
+					And what you want, you get.
+					<br>
+					A year in which you cherish
+					<br>
+					The past year’s memories,
+					<br>
+					And live your life each new day,
+					<br>
+					Full of bright expectancies.
+					<br>
+					I wish you Happy New Year.
+					<br><br>
+					</p>
+				</div>
+			</section>
+			
+			<section class="my-8" id="event">
+				<h3 class="text-2xl font-bold mb-4">
+					coming Events
+				</h3>
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+					<div class="bg-white p-5 rounded-lg shadow-lg hover:bg-yellow-400">
+						<img alt="A festive new year party with people dancing and celebrating" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://th.bing.com/th/id/OIP.EHB_08NfSQKdgR9Y6aeuvwAAAA?rs=1&pid=ImgDetMain" width="300"/>
+						<h4 class="text-xl font-bold mt-4">
+							New Year Party
+						</h4>
+						<p class="mt-2">
+							Join us for a grand new year party with music, dance, and lots of fun.
+						</p>
+					</div>
+					<div class="bg-white p-5 rounded-lg shadow-lg hover:bg-cyan-400">
+						<img alt="A family-friendly event with children playing games and enjoying activities" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/NqGe1xabMa1ftkdBjkWf9r4RJmX2FaZmtacS5OADBxR6FW4nA.jpg" width="300"/>
+						<h4 class="text-xl font-bold mt-4">
+							Family Fun Day
+						</h4>
+						<p class="mt-2">
+							Bring your family and enjoy a day filled with games, activities, and entertainment.
+						</p>
+					</div>
+					<div class="bg-white p-5 rounded-lg shadow-lg hover:bg-green-400">
+						<img alt="A serene and peaceful yoga session in a park" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://static.pratique.fr/images/unsized/pr/pratiquer-le-yoga-istock-com-andresr-201-1526458482.jpg" width="300"/>
+						 <h4 class="text-xl font-bold mt-4">
+						   New Year Yoga
+						</h4>
+						<p class="mt-2">
+							Start your year with a peaceful and rejuvenating yoga session.
+						</p>
+					</div>
+				</div>
+
+				
+				<button onclick="showFireworks()">click me
+				<p id="result"></p>
+			</section>
+			
+			<!--<section class="my-8">
+				<h3 class="text-2xl font-bold mb-4">
+					Latest News
+				</h3>
+				<div class="space-y-4">
+					<div class="bg-white p-4 rounded-lg shadow-lg flex items-center">
+						<img alt="A news anchor reporting the latest updates on new year celebrations" class="w-24 h-24 object-cover rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/F3o8pDHAVdZRK1nZ2tEX96fO2Ben4eQwtJ6VN3mbdXg9FW4nA.jpg" width="100"/>
+						<div>
+							<h4 class="text-xl font-bold">
+								New Year Celebrations Around the World
+							</h4>
+							<p class="mt-2">
+								Discover how different cultures celebrate the new year with unique traditions and festivities.
+							</p>
+						</div>
+					</div>
+					<div class="bg-white p-4 rounded-lg shadow-lg flex items-center">
+						<img alt="A group of people making new year resolutions" class="w-24 h-24 object-cover rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/gqI9k0CwQNbbCt0lbdRSXVn99vfrjt4MygkCd2uVEe67CL8TA.jpg" width="100"/>
+						<div>
+							<h4 class="text-xl font-bold">
+								Top New Year Resolutions for 2025
+							</h4>
+							<p class="mt-2">
+								Check out the most popular new year resolutions and get inspired to set your own goals.
+							</p>
+						</div>
+					</div>
+					<div class="bg-white p-4 rounded-lg shadow-lg flex items-center">
+						<img alt="A chef preparing a special new year feast" class="w-24 h-24 object-cover rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/QHhQmnuFmAIBONqdNK5bLxTk8MUtBIKXy8WI0ZZegQ0chFeTA.jpg" width="100"/>
+						<div>
+							<h4 class="text-xl font-bold">
+								Delicious New Year Recipes
+							</h4>
+							<p class="mt-2">
+								Try out these mouth-watering recipes to make your new year celebrations even more special.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			
+			
+
+			<script>
+				function createFirework(x, y)
+				{
+					const firework = document.createElement('div');
+					firework.classList.add('firework');
+					//firework.emojis ='🎉🎉🎉🎉🎉';
+					firework.style.left = `${x}px`;
+					firework.style.top = `${y}px`;
+					firework.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 70%)`;
+					document.body.appendChild(firework);
+
+
+					setTimeout(() => {
+						firework.remove();
+					}, 1000);
+				}
+				
+				function showFireworks()
+				{
+					for (let i = 0; i < 30; i++)
+					{
+					    
+					    //const emojis = ['🌈', '🎉', '💥', '✨', '🎂', '🌸','💐'];
+						//console.log(emojis);
+						//const howFireworks() = document.getElementById('showFireworks').innerHTML=emojis = ['🌈', '🎉', '💥', '✨', '🎂', '🌸','💐'];
+					   
+						const x = Math.random() * window.innerWidth;
+						const y = Math.random() * window.innerHeight;
+						setTimeout(() => createFirework(x, y), i * 500);
+					}
+				}
+			
+			</script>
+		</main>
+		
+		<footer class="bg-pink-600 text-white p-4 mt-8  ">
+			<p class="text-left">&copy; 2025 Happy Year Wishes. All rights reserved.</p>
+			<div class="flex justify-left space-x-4 mt-2">
+				<a class="hover:text-gray-400" href="https://m.facebook.com/swadesh.nandi.56/" target="facebook">
+					<i class="fab fa-facebook-f">
+					</i>
+				</a>
+		   
+				<a class="hover:underline" href="#">
+					<i class="fab fa-instagram">
+					</i>
+				</a>
+			
+				<a class="hover:underline" href="tel:91-9749056152">
+					<p>
+						<i class="fas fa-phone mr-3">
+						</i>
+						9749056152
+					</p>
+				</a>
+			</div>
+			<div class="text-center">
+			    <img alt="logo" class="mx-auto rounded-full w-20 h-20" height="100" src="https://lh3.googleusercontent.com/pw/AP1GczPPYl3nw-2AcqY75D0Fx6KPd0z_l3sfdWLseL9DfF6pxdKie0izYlLYLOlWzInzGAe0lhP-zmd54C-gZFKXqeQ9ocCb2yKLtxOjDR6VVNpXavbpppl-rPhnsIiTLQCTDhxOCm2MXrkSnreY6IaPFRvf-w=w1256-h943-s-no?authuser=0" width="80"/>
+				Developed By : Swadesh Nandi
+			</div>
+		</footer>
+		
+		</div>
+        <script>
+			const canvas = document.getElementById('fireworks');
+			const ctx = canvas.getContext('2d');
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+
+			class Particle
+			{
+				constructor(x, y, color) 
+				{
+					this.x = x;
+					this.y = y;
+					this.color = color;
+					this.velocity = { x: (Math.random() - 0.6) * 10, y: (Math.random() - 0.6) * 10 };
+					this.alpha = 1;
+					this.friction = 1.00;
+				}
+	
+				draw() 
+				{
+				    //ctx.clearRect(0, 0, canvas.width, canvas.height);
+					ctx.globalAlpha = this.alpha;
+					ctx.beginPath();
+					//ctx.arc(this.x, this.y, 50, 0, Math.PI * 2, false);
+					ctx.arc(this.x, this.y, 2.5, 0, Math.PI * 2, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				} 
+
+				/*draw()
+				{
+				   ctx.globalAlpha = this.alpha;
+					ctx.beginPath();
+					//ctx.clearRect(0, 0, canvas.width, canvas.height);
+					ctx.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
+					const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+					gradient.addColorStop(0, 'rgba(173, 216, 230, 0.5)'); // Light blue with transparency
+					gradient.addColorStop(1, 'rgba(144, 238, 144, 0.5)'); // Light green with transparency
+					//ctx.fillStyle = this.white// this.color;
+					ctx.fill();
+				   //ctx.fillRect(0, 0, canvas.width, canvas.height);
+				} 
+				draw()
+				{
+				    Clear the canvas
+					ctx.clearRect(0, 0, canvas.width, canvas.height);
+					// Draw a gradient background
+					const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+					//gradient.addColorStop(0, 'rgba(173, 216, 230, 0.5)'); // Light blue with transparency
+					//gradient.addColorStop(1, 'rgba(144, 238, 144, 0.5)'); // Light green with transparency
+					ctx.fillStyle = gradient;
+					ctx.fillRect(0, 0, canvas.width, canvas.height);
+				} */
+
+				update()
+				{
+					this.velocity.x *= this.friction;
+					this.velocity.y *= this.friction;
+					this.x += this.velocity.x;
+					this.y += this.velocity.y;
+					this.alpha -= 0.01;
+				}
+			}
+
+			class Firework 
+			{
+				constructor(x, y, color)
+				{
+					this.x = x;
+					this.y = y;
+					this.color = color;
+					this.velocity = { x: 0, y: Math.random() * -2.5 - 0.5 };
+					this.particles = [];
+					this.lifespan = 190;
+					this.hasExploded = false;
+				}
+
+				draw()
+				{
+					ctx.beginPath();
+					ctx.arc(this.x, this.y, 18, 0, Math.PI * 2, false);
+					ctx.fillStyle = this.color;
+					ctx.fill();
+				}
+
+				explode() 
+				{
+					for (let i = 0; i < 600; i++)
+					{
+						this.particles.push(new Particle(this.x, this.y, this.color));
+					}
+				}
+
+				update()
+				{
+					this.lifespan--;
+					if (this.lifespan <= 0 && !this.hasExploded)
+					{
+						this.explode();
+						this.hasExploded = true;
+					} 
+					else if (this.lifespan > 0) 
+					{
+						this.y += this.velocity.y;
+					}
+					this.particles.forEach(p => {
+						p.update();
+						p.draw();
+					});
+				}
+			}
+
+			let fireworks = [];
+
+			function animate()
+			{
+				requestAnimationFrame(animate);
+				ctx.fillStyle = 'white';
+				//ctx.fillStyle = 'rgba0, 0, 0, 150)';
+				ctx.fillRect(0, 0, canvas.width, canvas.height);
+				fireworks.forEach((firework, index) => {
+					firework.update();
+					firework.draw();
+					if (firework.lifespan <= 0 && firework.particles.every(p => p.alpha <= 0))
+					{
+						fireworks.splice(index, 1);
+					}
+				});
+				if (Math.random() < 0.079) 
+				{
+					const x = Math.random() * canvas.width;
+					const color = `hsl(${Math.random() * 360}, 50%, 50%)`;
+					fireworks.push(new Firework(x, canvas.height, color));
+				}
+			}
+			animate();
+		</script>
+	</body>
+</html>
